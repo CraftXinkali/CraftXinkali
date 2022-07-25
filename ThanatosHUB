@@ -52,12 +52,12 @@ local MainSection = Main:NewSection("Player")
 MainSection:NewToggle("Super Human", "Toggles SuperHuman Mode", function(state)
     if state then
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
     	game.Players.LocalPlayer.Character.Humanoid.Health = 99999999
     else
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-		game.Players.LocalPlayer.Character.Humanoid.Health = 100
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+	game.Players.LocalPlayer.Character.Humanoid.Health = 100
     end
 end)
 
