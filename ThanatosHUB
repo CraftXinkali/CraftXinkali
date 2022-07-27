@@ -47,7 +47,7 @@ local Window = Library.CreateLib("Thanatos Universal GUI HUB /// " ..game.Name, 
 -- Main
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Player")
-
+game.Players.LocalPlayer.Character.Humanoid.UseJumpPower = true  
 
 MainSection:NewToggle("Super Human", "Toggles SuperHuman Mode", function(state)
     if state then
